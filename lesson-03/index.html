@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- 문자 인코딩 설정 -->
+    <meta charset="UTF-8">
+    <!-- 모바일 반응형 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 페이지 제목 -->
+    <title>Easy Count - 생활 계산기</title>
+    <!-- CSS 파일 연결 -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 헤더 영역 -->
+    <header>
+        <h1>Easy Count</h1>
+        <p>생활에 필요한 모든 계산</p>
+    </header>
+    
+    <!-- 메인 컨테이너 -->
+    <main class="container">
+        <!-- 계산기 1: 커플 기념일 -->
+        <section class="card">
+            <h2>💕 커플 기념일 계산기1</h2>
+            <p class="description">연애 시작일을 입력하면 모든 기념일을 계산해드립니다!</p>
+            
+            <!-- 입력 폼 -->
+            <div class="form-group">
+                <label for="coupleStartDate">연애 시작일 (만난 날)</label>
+                <input type="date" id="coupleStartDate">
+            </div>
+            
+            <button id="coupleCalculateBtn">기념일 계산하기</button>
+            
+            <!-- 결과 표시 영역 -->
+            <div id="coupleResult"></div>
+        </section>
+        
+        <!-- 계산기 2: 살아온 날 -->
+        <section class="card">
+            <h2>🎂 살아온 날 계산기2</h2>
+            <p class="description">생년월일을 입력하면 당신이 살아온 시간을 계산해드립니다!</p>
+            
+            <!-- 입력 폼 -->
+            <div class="form-group">
+                <label for="birthday">생년월일</label>
+                <input type="date" id="birthday">
+            </div>
+            
+            <button id="birthdayCalculateBtn">살아온 날 계산하기</button>
+            
+            <!-- 결과 표시 영역 -->
+            <div id="livedResult"></div>
+        </section>
+    </main>
+    
+    <!-- 푸터 영역 -->
+    <footer>
+        <p>© 2025 Easy Count</p>
+    </footer>
+    
+    <!-- JavaScript 파일 연결 -->
+    <script src="script.js"></script>
+</body>
+</html>
+

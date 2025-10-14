@@ -16,9 +16,9 @@ HTML부터 시작해서 Next.js, 데이터베이스, 배포까지 완전한 풀�
 | Lesson 05 | 웹 개발 환경 + 할인율 계산기 | 할인율, 부가세 계산기 | ⭐⭐⭐ | Vite + pnpm |
 | Lesson 06 | Next.js 프로젝트 전환 | 모든 계산기 통합 | ⭐⭐⭐⭐ | Next.js + TypeScript |
 | Lesson 07 | SEO 최적화 + BMI 계산기 | 건강 계산기 추가 | ⭐⭐⭐⭐ | Next.js + SEO |
-| Lesson 08 | 배포 + 학점 계산기 | GPA 계산기 추가 | ⭐⭐⭐⭐ | Vercel 배포 |
-| Lesson 09 | 회원가입 + 계산 기록 저장 | Supabase 인증 | ⭐⭐⭐⭐⭐ | Supabase + DB |
-| Lesson 10 | GitHub 협업 & 자동 배포 | CI/CD 파이프라인 | ⭐⭐⭐⭐⭐ | Git + Actions |
+| Lesson 08 | GitHub 협업 & 자동 배포 | CI/CD 파이프라인 | ⭐⭐⭐⭐⭐ | Git + Actions |
+| Lesson 09 | 배포 + 학점 계산기 | GPA 계산기 추가 | ⭐⭐⭐⭐ | Vercel 배포 |
+| Lesson 10- | 회원가입 + 계산 기록 저장 | Supabase 인증 | ⭐⭐⭐⭐⭐ | Supabase + DB |
 
 ---
 

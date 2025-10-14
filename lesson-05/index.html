@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easy Count - 쇼핑 계산기</title>
+</head>
+<body>
+  <header>
+    <h1>🛍️ Easy Count - 쇼핑 계산기</h1>
+    <p>할인율과 부가세를 간편하게 계산하세요</p>
+  </header>
+  
+  <main class="container">
+    <!-- 할인율 계산기 -->
+    <section class="card">
+      <h2>🏷️ 할인율 계산기</h2>
+      <div class="input-group">
+        <label>원가</label>
+        <input type="number" id="originalPrice" placeholder="100000">
+        <span>원</span>
+      </div>
+      <div class="input-group">
+        <label>할인율</label>
+        <input type="number" id="discountRate" placeholder="30" min="0" max="100">
+        <span>%</span>
+      </div>
+      <button id="discountBtn">계산하기</button>
+      <div id="discountResult"></div>
+    </section>
+    
+    <!-- 부가세 계산기 -->
+    <section class="card">
+      <h2>🧾 부가세 계산기</h2>
+      <div class="input-group">
+        <label>금액</label>
+        <input type="number" id="amount" placeholder="100000">
+        <span>원</span>
+      </div>
+      <div class="radio-group">
+        <label>
+          <input type="radio" name="vatType" value="exclude" checked>
+          공급가액 (부가세 별도)
+        </label>
+        <label>
+          <input type="radio" name="vatType" value="include">
+          부가세 포함 금액
+        </label>
+      </div>
+      <button id="vatBtn">계산하기</button>
+      <div id="vatResult"></div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>© 2025 Easy Count</p>
+  </footer>
+  
+  <!-- Vite는 type="module"을 자동 처리 -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
+
